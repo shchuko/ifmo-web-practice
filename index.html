@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=UTF-8">
+    <title>Vladislav Yaroshchuk</title>
+    <meta name="author" content="shchuko">
+    <meta name="description" content="shchuko's CV">
+    <meta name="keywords" content="shchuko,CV,cv,github,programming">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="wrapper0">
+    <div class="wrapper1">
+        <header>
+            <h1 class="name">VLADISLAV YAROSHCHUK</h1>
+            <h2 class="group">M33081</h2>
+
+            <aside>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#spiritAnimal">Spirit Animal</a></li>
+                        <li><a href="#work">Work Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#goodAt">Things I'm good at</a></li>
+                        <li><a href="#badAt">Things I'm bad at</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </header>
+
+        <main>
+            <section id="about">
+                <article>
+                    <p>
+                        Good day! You're on my personal website. Let's get to know me a bit deeper.
+                    </p>
+                    <p>
+                        I can describe myself as a young and ambitious man with lots of interests. I do love
+                        programming,
+                        creating DIY-projects, playing my guitar, and sailing of course. I'm not afraid of exploring new
+                        things and I'm trying to be better today than I was yesterday.
+                    </p>
+                    <p>
+                        <cite>As Walt Disney said:</cite>
+                        <q>The way to get started is to quit talking and begin doing.</q>
+                    </p>
+                </article>
+            </section>
+
+            <section id="spiritAnimal">
+                <h2>Oh, Hippopotamus is my spirit animal!</h2>
+                <pre>
+  .-''''-. _
+ ('    '  '0)-/)
+ '..____..:    \._
+   \u  u (        '-..------._
+   |     /      :   '.        '--.
+  .nn_nn/ (      :   '            '\
+ ( '' '' /      ;     .             \
+  ''----' "\          :            : '.
+         .'/                           '.
+        / /                             '.
+       /_|       )                     .\|
+         |      /\                     . '
+         '--.__|  '--._  ,            /
+                      /'-,          .'
+                     /   |        _.'
+                    (____\       /
+                          \      \
+                           '-'-'-'
+                </pre>
+            </section>
+
+            <section id="work">
+                <h2>A few words about my work experience</h2>
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>
+                                <time datetime="2020-07-00">2020</time>
+                                -
+                                ...: JetBrains
+                            </dt>
+                            <dd>
+                                Employed as Software Developer/Build Engineer. Working on
+                                <a href="https://internship.jetbrains.com/projects/644/?tab=project">
+                                    <i>macOS virtualization problem</i>
+                                </a>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="skills">
+                <h2>Things I know</h2>
+
+                <h3>Programming</h3>
+                <p>
+                    C/C++, CMAKE, Java Core, Git, Bash, SQL, Python Basics, also can read an Assembly code. Have some
+                    experience at system programming (hypervisors patching, UEFI drivers/apps development), Active
+                    Directory administration, Linux administration.
+                </p>
+
+                <h4>A random example of my code</h4>
+                <pre><code>
+extern char* asl_compiler_path;
+
+typedef int (*acpi_build_func_t)(int ncpu);
+typedef void (*dsdt_line_func_t)(const char *fmt, ...);
+typedef void (*dsdt_fixed_ioport_func_t)(uint16_t iobase, uint16_t length);
+typedef void (*dsdt_fixed_irq_func_t)(uint8_t irq);
+typedef void (*dsdt_fixed_mem32_func_t)(uint32_t base, uint32_t length);
+typedef void (*dsdt_indent_func_t)(int levels);
+typedef void (*dsdt_unindent_func_t)(int levels);
+typedef void (*dsdt_fixup_func_t)(int bus, uint16_t iobase, uint16_t iolimit, uint32_t membase32, uint32_t memlimit32,
+		uint64_t membase64, uint64_t memlimit64);
+
+struct acpi_ops_t {
+	acpi_build_func_t acpi_build;
+	dsdt_line_func_t dsdt_line;
+	dsdt_fixed_ioport_func_t dsdt_fixed_ioport;
+	dsdt_fixed_irq_func_t dsdt_fixed_irq;
+	dsdt_fixed_mem32_func_t dsdt_fixed_mem32;
+	dsdt_indent_func_t dsdt_indent;
+	dsdt_unindent_func_t dsdt_unindent;
+	dsdt_fixup_func_t dsdt_fixup;
+};
+
+extern struct acpi_ops_t acpi_ops;
+extern struct acpi_ops_t acpi_ops_compile;
+extern struct acpi_ops_t acpi_ops_prebuilt_aml;
+                </code></pre>
+                <h3>DIY</h3>
+                <p>
+                    I also have some experience working with CNC-machines (eg. laser cutter, milling cutter), creating
+                    electronic devices, from printed circuit boards prototyping to programming microcontrollers and
+                    assembling all together.
+                </p>
+                <h3>Sailing</h3>
+                <p>
+                    I've been going sailing since I was 12 as a skipper, starting from Optimist, 420, 470. Now I am in
+                    the ITMO University sailing team on MX700 yachts. But I still don't have a skipper licence,
+                    couldn't find time for got an exam...
+                </p>
+            </section>
+
+            <section id="goodAt">
+                <h2>Things I'm good at</h2>
+                <ol>
+                    <li>Something</li>
+                    <li>Something more</li>
+                </ol>
+            </section>
+
+            <section id="badAt">
+                <h2>Things I'm bad at</h2>
+                <ol>
+                    <li>Web-Programming</li>
+                </ol>
+            </section>
+
+
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Email: <a href="mailto:yaroshchuk2000@gmail.com">yaroshchuk2000@gmail.com</a></li>
+                    <li>Telegram: <a href="https://t.me/shchuko">@shchuko</a></li>
+                    <li>GitHub: <a href="https://github.com/shchuko">shchuko</a></li>
+                    <li>Scream louder, suddenly I'll hear</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <span class="footerContent">Made by Vladislav Yaroshchuk</span>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
