@@ -60,6 +60,28 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
 }
+
+#rightcontent {
+    float: right;
+}
+
+#somepic {
+    width: 10vw;
+    float: right;
+    clear: right;
+}
+
+#badAt {
+    margin-right: 20vw;
+}
+
+#things {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 

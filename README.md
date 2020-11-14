@@ -12,4 +12,13 @@ Check the current webside stage [here](https://shchuko.github.io/ifmo-web-practi
 
 ## Task 2: basic CSS
 
+- Done
+
+## Task 3: margins
+
+- Done
+
+## Task 4: float/flex
+
 - Done. [Current stage](https://shchuko.github.io/ifmo-web-practice/)
+
