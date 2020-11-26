@@ -20,5 +20,8 @@ Check the current webside stage [here](https://shchuko.github.io/ifmo-web-practi
 
 ## Task 4: float/flex
 
-- Done. [Current stage](https://shchuko.github.io/ifmo-web-practice/)
+- Done
 
+## Task 5: JS fundamentals
+
+- Done. [Current stage](https://shchuko.github.io/ifmo-web-practice/)
