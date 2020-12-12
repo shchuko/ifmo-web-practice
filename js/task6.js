@@ -53,12 +53,15 @@ window.onload = () => {
         }
 
         chatMessages.innerHTML = chatMessages.innerHTML +
-            "<p> You: " + msgTextArea.value + "<p/>"
+            "<p class='userMessage'> You: " + msgTextArea.value + "<p/>"
         msgTextArea.value = ""
+
+        chatMessages.scrollTop = chatMessages.scrollHeight;
 
         sleep(1000).then(() => {
             chatMessages.innerHTML = chatMessages.innerHTML +
-                "<p> Bot: " + "That's fine!" + "<p/>"
+                "<p class='botMessage'> Bot: " + "That's fine!" + "<p/>"
+            chatMessages.scrollTop = chatMessages.scrollHeight;
         })
 
     }

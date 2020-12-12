@@ -121,5 +121,14 @@ body {
     width: 85%;
 }
 
+.botMessage {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.userMessage {
+    font-style: normal;
+    font-weight: normal;
+}
 
 
