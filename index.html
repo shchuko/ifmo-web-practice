@@ -8,6 +8,7 @@
     <meta name="keywords" content="shchuko,CV,cv,github,programming">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="resources/cell-phone.png">
+    <script src="js/task6.js"></script>
 </head>
 
 <body>
@@ -28,11 +29,11 @@
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#goodAt">Things I'm good at</a></li>
                         <li><a href="#badAt">Things I'm bad at</a></li>
-                        <li><a href="#contacts">Contacts</a></li>
+                        <li><input type="button" id="showContactsButton" value="Contacts">
                     </ul>
                 </nav>
             </aside>
-            <img src="resources/pic.png" alt="somepic" id="somepic">
+            <img src="resources/pics/pic0.png" alt="somepic" id="somepic">
             </div>
 
             <main>
@@ -170,18 +171,21 @@ extern struct acpi_ops_t acpi_ops_prebuilt_aml;
                 </section>
                 </section>
 
-                <section id="contacts">
+
+                <section class="floatingObj"  id="contactsBox" style="display: none">
                     <h2>Contacts</h2>
                     <ul>
                         <li>Email: <a href="mailto:yaroshchuk2000@gmail.com">yaroshchuk2000@gmail.com</a></li>
                         <li>Telegram: <a href="https://t.me/shchuko">@shchuko</a></li>
                         <li>GitHub: <a href="https://github.com/shchuko">shchuko</a></li>
-                        <li>Scream louder, suddenly I'll hear</li>
                     </ul>
+                    <input type="button" id="hideContactsButton" value="Close">
+                </section>
+
+                <section class="floatingObj" id="floatingPhoto">
+
                 </section>
             </main>
-
-
         </div>
     </div>
 </div>
