@@ -30,6 +30,8 @@
                         <li><a href="#goodAt">Things I'm good at</a></li>
                         <li><a href="#badAt">Things I'm bad at</a></li>
                         <li><input type="button" id="showContactsButton" value="Contacts">
+                        <li><input type="button" id="showChatButton" value="Show Chat">
+
                     </ul>
                 </nav>
             </aside>
@@ -171,8 +173,7 @@ extern struct acpi_ops_t acpi_ops_prebuilt_aml;
                 </section>
                 </section>
 
-
-                <section class="floatingObj"  id="contactsBox" style="display: none">
+                <section class="floatingObj"  id="contactsBox">
                     <h2>Contacts</h2>
                     <ul>
                         <li>Email: <a href="mailto:yaroshchuk2000@gmail.com">yaroshchuk2000@gmail.com</a></li>
@@ -182,8 +183,19 @@ extern struct acpi_ops_t acpi_ops_prebuilt_aml;
                     <input type="button" id="hideContactsButton" value="Close">
                 </section>
 
-                <section class="floatingObj" id="floatingPhoto">
+                <section class="floatingObj" id="chatBox">
+                    <h2>Chat</h2>
 
+                    <div id="chatMessages">
+
+                    </div>
+
+                    <label>
+                        <input type="text" id="msgTextArea">
+                    </label>
+                    <input type="button" id="sendButton" value="Send">
+                    <br/>
+                    <input type="button" id="hideChatButton" value="Close Chat">
                 </section>
             </main>
         </div>

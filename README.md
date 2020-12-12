@@ -28,4 +28,8 @@ Check the current webside stage [here](https://shchuko.github.io/ifmo-web-practi
 
 ## Task 6: JS fundamentals #2
 
+- Done
+
+## Task 7: JS fundamentals #3
+
 - Done. [Current stage](https://shchuko.github.io/ifmo-web-practice/)
